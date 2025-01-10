@@ -1,0 +1,92 @@
+
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: beige;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: black;
+    background-color: beige;
+  }
+  
+  /* About Us Section */
+  
+  .about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: beige;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .about-us h2 {
+    text-align: center;
+  }
+  
+  .about-us p {
+    text-align: justify;
+  }
+  
+  /* Header and Mission */
+  
+  .mission {
+    margin-top: 40px;
+  }
+  
+  .mission h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* What We Offer */
+  
+  .offer {
+    margin-top: 40px;
+  }
+  
+  .offer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .offer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .offer li {
+    margin-bottom: 10px;
+  }
+  
+  .offer li::before {
+    content: "\2022";
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+  }
+  
+  /* Our Story */
+  
+  .story {
+    margin-top: 40px;
+  }
+  
+  .story h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }

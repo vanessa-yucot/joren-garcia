@@ -1,0 +1,121 @@
+* {
+    margin-top: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+header {
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:transparent;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul  {
+   
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav li {
+    padding: 1rem;
+    background-color: grey;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+
+} 
+nav ul li a.active {
+    color: aqua;
+    font-weight: bold;
+
+}
+nav ul :hover{
+    color:rgb(38, 175, 175);
+}
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu ul li a {
+text-decoration: none;
+font-weight: bold;
+color: #333;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.content {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    color: #6c8a64;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.image-container{
+    width: 40%;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(red, green, blue, 0.1);
+}
